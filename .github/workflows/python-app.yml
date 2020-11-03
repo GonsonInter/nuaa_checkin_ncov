@@ -36,6 +36,6 @@ jobs:
         pip install argparse
     - name: Check in NUAA
       run: |
-        python checkin.py -u ${{secrets.USERNAME}} -p ${{PASSWORD}}
+        python checkin.py -u ${{secrets.USERNAME}} -p ${{secrets.PASSWORD}}
  
 
